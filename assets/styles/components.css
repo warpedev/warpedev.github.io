@@ -248,6 +248,23 @@ main {
 
 .footer__links a {
   color: var(--accent);
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.footer__links a:hover {
+  opacity: 1;
+}
+
+.footer__links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.footer__links a {
+  color: var(--accent);
   opacity: 0.85;
 }
 

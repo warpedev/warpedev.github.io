@@ -51,14 +51,16 @@
       "category": "Startside",
       "description": "Rolig utviklerstart med samlete feeds og hurtigverktøy.",
       "meta": ["Feeds", "Git"],
-      "slug": "codefront"
+      "slug": "codefront",
+      "url": "https://codefront-app.github.io/"
     },
     {
       "title": "Growr",
       "category": "Karriere",
       "description": "Internships, sommerjobber og trainee-stillinger på norsk.",
       "meta": ["Søk", "Lagrede filtre"],
-      "slug": "growr"
+      "slug": "growr",
+      "url": "https://growr-app.github.io/"
     },
     {
       "title": "Regningen.no",
@@ -113,7 +115,7 @@
       "category": "Opplevelser",
       "description": "Signal-basert eventradar for Bergen og vestlandet.",
       "meta": ["Live-data"],
-      "url": "https://spontis-app.github.io",
+      "url": "https://spontis-app.github.io/",
       "slug": "spontis"
     },
     {

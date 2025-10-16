@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Spontis",
+    "slug": "spontis",
+    "url": "https://spontis-app.github.io/",
+    "updated": "2024-11-18",
+    "pitch": "Kultur og øyeblikk i bevegelse – signalbasert eventradar."
+  },
+  {
+    "name": "CodeFront",
+    "slug": "codefront",
+    "url": "https://codefront-app.github.io/",
+    "updated": "2024-11-18",
+    "pitch": "Rolig startside for utviklere med samlede feeds og verktøy."
+  },
+  {
+    "name": "Growr",
+    "slug": "growr",
+    "url": "https://growr-app.github.io/",
+    "updated": "2024-11-18",
+    "pitch": "Internship- og traineeportal med søk og raske filtre."
+  }
+]

@@ -45,3 +45,5 @@ struktur (feriedatoer, prisdata og prosjektlisten).
 - Bygg videre på de delte komponentene (varianter av hero/nav/footers, listekort).
 - Dokumenter nye mikrosider i egne README-er, og lenk dem i huben.
 - Legg til datasett for kommende år (f.eks. `ferier-2026.json`) og vurder kildehenvisninger i JSON.
+- Vurder skript/UI for å oppdatere `public/projects.json` uten håndredigering.
+- Utforsk enkel feed-cache (HN, Reddit, Tek.no) og internship-kilder.

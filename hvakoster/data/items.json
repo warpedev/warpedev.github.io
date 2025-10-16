@@ -1,0 +1,92 @@
+[
+  {
+    "q": "Strømpris i Bergen (spot)",
+    "answer": "1,42 kr/kWh i gjennomsnitt siste 7 dager",
+    "source": "Hvakoster.no måling",
+    "updated": "2024-11-01"
+  },
+  {
+    "q": "Passgebyr i Oslo",
+    "answer": "450 kr for ordinært pass (2024)",
+    "source": "Politiet",
+    "updated": "2024-06-15"
+  },
+  {
+    "q": "DHL liten pakke til Europa",
+    "answer": "Fra 399 kr via service point",
+    "source": "DHL",
+    "updated": "2024-09-03"
+  },
+  {
+    "q": "Klippe hos Nikita Frisør (Bergen)",
+    "answer": "Fra 699 kr (stylist)",
+    "source": "Nikita Frisør",
+    "updated": "2024-08-12"
+  },
+  {
+    "q": "Øl på Østre",
+    "answer": "98 kr for 0,4 l",
+    "source": "Østre",
+    "updated": "2024-07-28"
+  },
+  {
+    "q": "Dagens lunsj på Colonialen Kafé",
+    "answer": "189 kr inkludert kaffe",
+    "source": "Colonialen Kafé",
+    "updated": "2024-09-19"
+  },
+  {
+    "q": "Barnebillett Bybanen",
+    "answer": "23 kr (sone A, enkeltbillett)",
+    "source": "Skyss",
+    "updated": "2024-10-02"
+  },
+  {
+    "q": "Tannlegekontroll Bergen sentrum",
+    "answer": "Fra 990 kr for undersøkelse med rens",
+    "source": "Vital Tannklinikk",
+    "updated": "2024-08-06"
+  },
+  {
+    "q": "Pendlerkort Bergen–Oslo (Vy)",
+    "answer": "Fra 1 129 kr per måned (digitalt verdikort)",
+    "source": "Vy",
+    "updated": "2024-10-05"
+  },
+  {
+    "q": "Streaming: NRK lisens? (med nett-TV)",
+    "answer": "0 kr – lisensen er erstattet av skattefinansiering",
+    "source": "NRK",
+    "updated": "2024-01-15"
+  },
+  {
+    "q": "Drop-in coworking på Media City Bergen",
+    "answer": "250 kr per dag",
+    "source": "Kopi Kontor",
+    "updated": "2024-09-10"
+  },
+  {
+    "q": "Taxi Flesland til Bergen sentrum (ettermiddag)",
+    "answer": "Ca. 650 kr (inkl. bomring)",
+    "source": "Bergen Taxi",
+    "updated": "2024-10-22"
+  },
+  {
+    "q": "Månedskort på SATS Bergen",
+    "answer": "799 kr per måned (uten binding)",
+    "source": "SATS",
+    "updated": "2024-08-01"
+  },
+  {
+    "q": "Kaffe latte på Kaffemisjonen",
+    "answer": "54 kr for 0,3 l",
+    "source": "Kaffemisjonen",
+    "updated": "2024-07-05"
+  },
+  {
+    "q": "Matlevering fra Oda (standard)",
+    "answer": "79 kr per levering (gratis over 1200 kr)",
+    "source": "Oda",
+    "updated": "2024-09-30"
+  }
+]

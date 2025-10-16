@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Warpedev monogram</title>
+  <desc id="desc">Stilisert W formet av tre parallelle linjer</desc>
+  <g fill="none" stroke="#1d1d1b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 12l8 40 8-24 8 24 8-40" />
+    <path d="M24 28l8 24 8-24 8 24 8-40" opacity="0.4" />
+  </g>
+</svg>

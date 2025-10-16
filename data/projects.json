@@ -1,0 +1,143 @@
+{
+  "tools": [
+    {
+      "title": "Codex CLI",
+      "category": "Assist",
+      "description": "Lokal utviklingsassistent for raske iterasjoner med Codex.",
+      "meta": ["CLI", "Automatisering"],
+      "url": "https://github.com/warpedev/codex-cli"
+    },
+    {
+      "title": "TradeID Nexus",
+      "category": "Data",
+      "description": "Integrasjonshub for handel- og compliance-data. Web + API.",
+      "meta": ["Next.js", "API"],
+      "status": "upcoming"
+    },
+    {
+      "title": "Warpedev Scripts",
+      "category": "Ops",
+      "description": "Lette skript for å bootstrappe prosjekter og sjekklister.",
+      "meta": ["Bash", "Sjekklistesystem"],
+      "url": "https://github.com/warpedev/scripts"
+    }
+  ],
+  "sites": [
+    {
+      "title": "Oscar Warpe",
+      "category": "Presentasjon",
+      "description": "Personlig side med arbeid, bakgrunn og kontakt.",
+      "meta": ["Profil"],
+      "url": "https://oscarwarpe.github.io"
+    },
+    {
+      "title": "HvaKoster.no",
+      "category": "Pris-søk",
+      "description": "Ærlige priser, folkelig søk med forslag.",
+      "meta": ["Søk"],
+      "url": "https://warpedev.github.io/hvakoster/",
+      "slug": "hvakoster"
+    },
+    {
+      "title": "Ferie.no",
+      "category": "Planlegging",
+      "description": "Neste fridag for alle fylker – med ukevalg.",
+      "meta": ["Kalender", "Skoleår"],
+      "url": "https://warpedev.github.io/ferie/",
+      "slug": "ferie"
+    },
+    {
+      "title": "CodeFront",
+      "category": "Startside",
+      "description": "Rolig utviklerstart med samlete feeds og hurtigverktøy.",
+      "meta": ["Feeds", "Git"],
+      "slug": "codefront"
+    },
+    {
+      "title": "Growr",
+      "category": "Karriere",
+      "description": "Internships, sommerjobber og trainee-stillinger på norsk.",
+      "meta": ["Søk", "Lagrede filtre"],
+      "slug": "growr"
+    },
+    {
+      "title": "Regningen.no",
+      "category": "Økonomi",
+      "description": "Finn ut hva du egentlig betaler.",
+      "meta": ["Oversikt"],
+      "status": "upcoming",
+      "slug": "regningen"
+    },
+    {
+      "title": "Søndagen.no",
+      "category": "Rytme",
+      "description": "Den roligste dagen i uka, kartlagt.",
+      "meta": ["Velvære"],
+      "status": "upcoming",
+      "slug": "sondagen"
+    },
+    {
+      "title": "ErDetÅpent.no / Stengt.no",
+      "category": "Åpningstider",
+      "description": "Sanntidsoversikt og selvironi om åpne dører.",
+      "meta": ["Live-status"],
+      "status": "upcoming",
+      "slug": "erdetapent"
+    },
+    {
+      "title": "Holdbarhet.no",
+      "category": "Mat",
+      "description": "Matens klokke for kjøkkenet.",
+      "meta": ["Referanse"],
+      "status": "upcoming",
+      "slug": "holdbarhet"
+    },
+    {
+      "title": "Kaffepause.no",
+      "category": "Pust",
+      "description": "Små pauser i en travel dag.",
+      "meta": ["Velvære"],
+      "status": "upcoming",
+      "slug": "kaffepause"
+    },
+    {
+      "title": "Formen.no",
+      "category": "Humør",
+      "description": "Dagens humørbarometer.",
+      "meta": ["Refleksjon"],
+      "status": "upcoming",
+      "slug": "formen"
+    },
+    {
+      "title": "Spontis",
+      "category": "Opplevelser",
+      "description": "Signal-basert eventradar for Bergen og vestlandet.",
+      "meta": ["Live-data"],
+      "url": "https://spontis-app.github.io",
+      "slug": "spontis"
+    },
+    {
+      "title": "Warpedev Universe",
+      "category": "Hub",
+      "description": "Denne oversikten. Lett å utvide med nye moduler.",
+      "meta": ["HTML", "CSS", "JS"],
+      "slug": "warpedev"
+    }
+  ],
+  "experiments": [
+    {
+      "title": "Codex Experiments",
+      "category": "Utforskning",
+      "description": "Feltlogg for design- og kodeeksperimenter rundt Codex.",
+      "meta": ["Notater"],
+      "url": "https://github.com/warpedev/codex-experiments"
+    },
+    {
+      "title": "News Dev Hub",
+      "category": "Data",
+      "description": "Prototype for nyhetsaggregasjon med sanntidsfiltrering.",
+      "meta": ["Prototype"],
+      "status": "upcoming"
+    }
+  ]
+}

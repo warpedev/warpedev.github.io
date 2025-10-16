@@ -1,0 +1,118 @@
+:root {
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --subtle: #64748b;
+  --accent: #0ea5e9;
+  --border: rgba(15, 23, 42, 0.08);
+  --container-width: 880px;
+  --hero-background: radial-gradient(120% 120% at 50% 0%, #e0f2fe 0%, rgba(224, 242, 254, 0) 70%),
+    var(--background);
+}
+
+.hero--center .hero__content {
+  text-align: center;
+}
+
+.hero__content h1 {
+  margin: 0 0 0.8rem;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+}
+
+.lead {
+  margin: 0 0 1.4rem;
+  color: var(--subtle);
+  font-size: 1.1rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search__label {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--subtle);
+}
+
+.search input {
+  width: min(520px, 84vw);
+  padding: 0.85rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: 0 16px 36px rgba(14, 165, 233, 0.12);
+  font-size: 1rem;
+}
+
+.results {
+  display: grid;
+  gap: 1rem;
+  padding: 2.5rem 0 3rem;
+}
+
+.results__status {
+  grid-column: 1 / -1;
+  color: var(--subtle);
+  font-size: 0.95rem;
+}
+
+.result-card {
+  display: grid;
+  gap: 0.6rem;
+  box-shadow: 0 14px 32px rgba(14, 165, 233, 0.1);
+}
+
+.result-card h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.result-card p {
+  margin: 0;
+  color: var(--subtle);
+  font-size: 0.95rem;
+}
+
+.result-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  color: var(--subtle);
+  font-size: 0.85rem;
+}
+
+.result-card__meta .badge {
+  background: rgba(14, 165, 233, 0.1);
+  color: var(--accent);
+  border-color: rgba(14, 165, 233, 0.2);
+  font-weight: 600;
+}
+
+.result-card--empty {
+  text-align: left;
+}
+
+.result-card--empty ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  text-align: left;
+}
+
+.result-card--empty li + li {
+  margin-top: 0.4rem;
+}
+
+.footer__content--center {
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.footer__content--center a {
+  color: var(--accent);
+}

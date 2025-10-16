@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ferie.no – Neste fridag, rett foran deg</title>
+    <meta
+      name="description"
+      content="Ferie.no viser neste skoleferie og fridager, med klare perioder for hvert fylke."
+    />
+    <link rel="stylesheet" href="../assets/styles/base.css" />
+    <link rel="stylesheet" href="../assets/styles/components.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero hero--center">
+      <div class="hero__content">
+        <h1>Ferie.no</h1>
+        <p class="lead">
+          Neste ferie er <span data-next-name>…</span> – uke <span data-next-week>…</span>
+        </p>
+        <p class="meta">
+          Oppdatert for skoleåret <span data-year-label>2024–2025</span>. Velg fylke og år for detaljer.
+        </p>
+        <div class="picker-group">
+          <label class="picker">
+            <span>Skoleår</span>
+            <select id="year-picker" aria-label="Velg skoleår"></select>
+          </label>
+          <label class="picker">
+            <span>Fylke</span>
+            <select id="region-picker" aria-label="Velg fylke"></select>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="timeline" aria-live="polite"></section>
+      <aside class="note">
+        <p>
+          Dette er et førsteutkast. Dataene hentes fra
+          <code>data/ferier-2025.json</code>. Oppdater filen for å holde oversikten
+          fersk.
+        </p>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content footer__content--center">
+        <nav class="footer__links">
+          <a href="https://warpingcars.github.io/warpedev.github.io/">Til Warpedev</a>
+          <a href="https://warpingcars.github.io/codefront-app.github.io/">CodeFront</a>
+          <a href="https://warpingcars.github.io/growr-app.github.io/">Growr</a>
+          <a href="https://warpingcars.github.io/spontis-app.github.io/">Spontis</a>
+        </nav>
+        <span>Kontakt: <a href="mailto:hallo@warpedev.no">hallo@warpedev.no</a></span>
+      </div>
+    </footer>
+
+    <script src="../assets/scripts/utils.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

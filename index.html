@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Warpedev – små verktøy og nettsider for hverdagen</title>
+    <meta
+      name="description"
+      content="Warpedev er et lett univers av små, nyttige og vakre verktøy og nettsider laget av Oscar Warpe."
+    />
+    <link rel="stylesheet" href="assets/styles/base.css" />
+    <link rel="stylesheet" href="assets/styles/components.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="hero hero--bottom">
+      <div class="hero__content">
+        <span class="hero__badge">Warpedev</span>
+        <h1>Små verktøy og nettsider for hverdagen</h1>
+        <p>
+          Et univers av mikrosider laget for nysgjerrighet, rytme og
+          brukervennlighet. Prosjektene er gratis, lette å bruke og laget for å
+          gjøre små øyeblikk enklere.
+        </p>
+        <nav class="hero__nav" aria-label="Kontekster">
+          <a class="hero__nav-link" href="#tools">Verktøy</a>
+          <a class="hero__nav-link" href="#sites">Nettsider</a>
+          <a class="hero__nav-link" href="#experiments">Eksperimenter</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="tools" class="section">
+        <div class="section__header">
+          <h2>Verktøy</h2>
+          <p>Arbeidsverktøy og assistenter som støtter raske leveranser.</p>
+        </div>
+        <div class="grid" data-section="tools"></div>
+      </section>
+
+      <section id="sites" class="section">
+        <div class="section__header">
+          <h2>Nettsider</h2>
+          <p>Presens, microsider og landingssider for å vise frem arbeid.</p>
+        </div>
+        <div class="grid" data-section="sites"></div>
+      </section>
+
+      <section id="experiments" class="section">
+        <div class="section__header">
+          <h2>Eksperimenter</h2>
+          <p>Utforskninger og prototyper som former kommende prosjekter.</p>
+        </div>
+        <div class="grid" data-section="experiments"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <p>&copy; <span id="year"></span> Warpedev</p>
+        <a href="https://github.com/warpedev">GitHub</a>
+      </div>
+    </footer>
+
+    <script src="scripts/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hva koster …? – Folkeforankret prissøk</title>
+    <meta
+      name="description"
+      content="Søk i et lite bibliotek av ærlige priser, og send forslag til hva vi bør kartlegge neste gang."
+    />
+    <link rel="stylesheet" href="../assets/styles/base.css" />
+    <link rel="stylesheet" href="../assets/styles/components.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero hero--center">
+      <div class="hero__content">
+        <h1>Hva koster …?</h1>
+        <p class="lead">Finn svar på typiske hverdagspriser og send inn nye spørsmål.</p>
+        <form class="search" role="search">
+          <label class="search__label" for="q">Søk</label>
+          <input id="q" name="q" type="search" placeholder="Strøm i Bergen, pass, DHL-pakke …" />
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section class="results" aria-live="polite"></section>
+      <section class="cta">
+        <h2>Foreslå en pris</h2>
+        <p>
+          Savner du en pris? Send en mail til
+          <a href="mailto:hei@hvakoster.no?subject=Prisforslag">hei@hvakoster.no</a>
+          eller lag en issue på GitHub.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content footer__content--center">
+        <nav class="footer__links">
+          <a href="https://warpingcars.github.io/warpedev.github.io/">Til Warpedev</a>
+          <a href="https://warpingcars.github.io/codefront-app.github.io/">CodeFront</a>
+          <a href="https://warpingcars.github.io/growr-app.github.io/">Growr</a>
+          <a href="https://warpingcars.github.io/spontis-app.github.io/">Spontis</a>
+        </nav>
+        <span>Data fra <code>data/items.json</code></span>
+      </div>
+    </footer>
+
+    <script src="../assets/scripts/utils.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

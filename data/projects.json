@@ -20,6 +20,14 @@
       "description": "Lette skript for å bootstrappe prosjekter og sjekklister.",
       "meta": ["Bash", "Sjekklistesystem"],
       "url": "https://github.com/warpedev/scripts"
+    },
+    {
+      "title": "News Feed API",
+      "category": "Data",
+      "description": "Samler NRK, E24, Hacker News og Reddit i ett normalisert feed-endepunkt.",
+      "meta": ["Node", "Express", "RSS"],
+      "highlight": "Driver CodeFront-live feed",
+      "url": "https://github.com/warpedev/news-dev-hub"
     }
   ],
   "sites": [
@@ -49,8 +57,9 @@
     {
       "title": "CodeFront",
       "category": "Startside",
-      "description": "Rolig utviklerstart med samlete feeds og hurtigverktøy.",
-      "meta": ["Feeds", "Git"],
+      "description": "Rolig utviklerstart med live nyhetsfeed, git-kort og hurtigverktøy.",
+      "meta": ["Feeds", "Git", "Verktøy"],
+      "highlight": "Oppdatert med live-feed",
       "slug": "codefront",
       "url": "https://codefront-app.github.io/"
     },
@@ -137,7 +146,7 @@
     {
       "title": "News Dev Hub",
       "category": "Data",
-      "description": "Prototype for nyhetsaggregasjon med sanntidsfiltrering.",
+      "description": "Neste steg: personaliserte alarmer, lunsjforside og Slack/Matrix-varsler.",
       "meta": ["Prototype"],
       "status": "upcoming"
     }

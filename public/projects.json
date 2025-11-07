@@ -3,15 +3,15 @@
     "name": "Spontis",
     "slug": "spontis",
     "url": "https://spontis-app.github.io/",
-    "updated": "2024-11-18",
+    "updated": "2025-10-30",
     "pitch": "Kultur og øyeblikk i bevegelse – signalbasert eventradar."
   },
   {
     "name": "CodeFront",
     "slug": "codefront",
     "url": "https://codefront-app.github.io/",
-    "updated": "2024-11-18",
-    "pitch": "Rolig startside for utviklere med samlede feeds og verktøy."
+    "updated": "2025-11-07",
+    "pitch": "Rolig startside for utviklere – nå med live feed fra News Feed API."
   },
   {
     "name": "Growr",
@@ -19,5 +19,12 @@
     "url": "https://growr-app.github.io/",
     "updated": "2024-11-18",
     "pitch": "Internship- og traineeportal med søk og raske filtre."
+  },
+  {
+    "name": "News Feed API",
+    "slug": "news-feed-api",
+    "url": "https://github.com/warpedev/news-dev-hub",
+    "updated": "2025-11-07",
+    "pitch": "Node-backend som normaliserer NRK, E24, Reddit og Hacker News til ett API."
   }
 ]

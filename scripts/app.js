@@ -61,6 +61,13 @@ function createCard(project) {
     card.appendChild(metaList);
   }
 
+  if (project.highlight) {
+    const highlight = document.createElement("span");
+    highlight.className = "badge badge--highlight";
+    highlight.textContent = project.highlight;
+    card.appendChild(highlight);
+  }
+
   if (project.status === "upcoming") {
     const statusBadge = document.createElement("span");
     statusBadge.className = "badge badge--upcoming";
